@@ -44,8 +44,6 @@ cytokine_analysis(
   data_path = "results/data/"
 )
 
-library(tregPaper)
-
 flow_data = readr::read_csv("data/flow/PercentPos.csv")
 flow_analysis(
   flow_data,
